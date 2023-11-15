@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#todoRangeField {
+  max-width: 10rem;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  max-width: 40rem;
+}
+
+label {
+  margin-top: 4rem;
+}
+
+select {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 358px) {
+  #nameField {
+    font-size: 1rem;
+  }
+}
